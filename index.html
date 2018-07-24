@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Teste</h1>
+    <?php
+	define("nome","João Filippio");
+      echo "Teste"; 
+	  echo "</br>";
+	  echo nome;
+	  echo "</br>";
+	  $varstring = "VAR 1";
+	  $varinteger = 1;
+	  echo $varstring;
+	  echo "</br>";
+	  echo $varinteger;
+	  echo "</br>";
+	  $estacao = array('Verão' => '4 Meses',
+	  'Outono' => '3 meses',
+	  'Inverno' => '2 meses',
+	  'Primavera' => 'é loco.');
+	  echo "Teste {$estacao['Primavera']}";
+	 echo "</br>";
+	 echo '<p>var '. $varstring . ' agora vai printar dados do verao ' . $estacao['Verão'];
+	  
+
+	  $mesesdoano = array(
+    '2010' => array(
+    'Outubro' => 25,
+    'Novembro' => 23,
+    'Dezembro' => 20),
+    '2011' => array(
+    'Outubro' => 26,
+    'Novembro' => 22,
+    'Dezembro' => 21),
+    '2012' => array(
+    'Outubro' => 27,
+    'Novembro' => 28,
+    'Dezembro' => 19));
+	
+	$modofacilarray = array(1,2,3);
+	$modofacilarray[] = 4;
+	$modofacilarray[] = 5;
+	// novas alocações usando somente o [];
+	
+	
+	
+	  echo "<table>";
+	  //tr primeira row
+	  //3 td 3 coluns
+      echo "<tr>
+				
+                <td align='center'><input type='button' value='bot1' onclick =  ??? /></td>        
+                <td align='center'><input type='checkbox' value='bot2' onclick =  ??? /></td>
+                <td align='center'><input type='date' value='bot3' onclick =  ??? /></td>
+          </tr>";
+		  //tr segunda row
+		  //align alinhado centre centro type botão
+	  echo "<tr> 
+	  
+	  <td align='center'><input type='file' value='fs buton scd  row' onclick = ??? /></td>  
+	  <td align='center'><input type='password' value='scd buton scd  row' onclick = ??? /></td>  
+	  
+	  </tr>";
+      echo "</table>";
+
+    ?>
+  </body>
+</html>
