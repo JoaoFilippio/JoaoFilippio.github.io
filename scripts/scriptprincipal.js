@@ -1,3 +1,3 @@
 
-alert('Page Ok!')
-console.log('Page Ok!')
+alert('Page Ok!');
+console.log('Page Ok!');
